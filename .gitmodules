@@ -1,0 +1,3 @@
+[submodule "submodules/FirstLibrary"]
+	path = submodules/FirstLibrary
+	url = https://github.com/gurustron/submodules-first-library

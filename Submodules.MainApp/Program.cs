@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Submodules.FirstLibrary;
+
+Console.WriteLine("Hello, Submodules!");
+Console.WriteLine(FirstLibraryClass.GetMessage());

@@ -10,6 +10,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{97B88C74-054C-4F67-A18F-2ACE14A420C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstLibrary", "FirstLibrary", "{20419C35-76AC-4A5D-A51B-A48F8359EAC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submodules.FirstLibrary", "submodules\FirstLibrary\Submodules.FirstLibrary\Submodules.FirstLibrary.csproj", "{6976BAAF-1D31-4E83-A4F2-FD52D379BE01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,5 +26,13 @@ Global
 		{31F27C84-0354-48D8-A158-B4122F0FD7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31F27C84-0354-48D8-A158-B4122F0FD7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31F27C84-0354-48D8-A158-B4122F0FD7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6976BAAF-1D31-4E83-A4F2-FD52D379BE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6976BAAF-1D31-4E83-A4F2-FD52D379BE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6976BAAF-1D31-4E83-A4F2-FD52D379BE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6976BAAF-1D31-4E83-A4F2-FD52D379BE01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20419C35-76AC-4A5D-A51B-A48F8359EAC3} = {97B88C74-054C-4F67-A18F-2ACE14A420C7}
+		{6976BAAF-1D31-4E83-A4F2-FD52D379BE01} = {20419C35-76AC-4A5D-A51B-A48F8359EAC3}
 	EndGlobalSection
 EndGlobal

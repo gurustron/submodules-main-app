@@ -7,4 +7,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\submodules\FirstLibrary\Submodules.FirstLibrary\Submodules.FirstLibrary.csproj" />
+    </ItemGroup>
+
 </Project>
